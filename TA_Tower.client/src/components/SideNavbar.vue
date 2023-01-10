@@ -52,6 +52,7 @@
 <script>
 import { computed } from '@vue/reactivity'
 import { AppState } from '../AppState'
+import { AuthService } from '../services/AuthService.js'
 export default {
   setup() {
     return {

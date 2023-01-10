@@ -76,9 +76,9 @@ export default {
     // watchEffect(() => {
     //   let events = AppState.towerEvents
     //   if (filter.value) {
-    //     console.log(filter.value)
+    //     logger.log(filter.value)
     //     events = events.filter(e => e.type == filter.value)
-    //     console.log(events)
+    //     logger.log(events)
     //   }
     //   filteredEvents.value = events
     // })
